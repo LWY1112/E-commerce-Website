@@ -1,0 +1,40 @@
+.background {
+    background-color: #f0f0f0; /* Set the background color */
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8zM18zZF9pbGx1c3RyYXRpb25fb2ZfYV9uZW9uX2ljb25zX3Nob3BwaW5nX2lzb19hYTQwZTZhNi0xOTk1LTRlMTUtOTJjYy03ZjJlODdlNjkyODNfMS5qcGc.jpg'); /* Optionally, set a background image */
+    background-size: cover; /* Adjust the background size as needed */
+    background-position: center center; /* Adjust the background position as needed */
+    padding-top: 100px; /* Adjust the top padding as needed */
+    padding-bottom: 100px; /* Adjust the bottom padding as needed */
+}
+
+.background1 {
+    background-color: #f0f0f0; /* Set the background color */
+    background-image: url('https://s3.us-east-2.amazonaws.com/stg.uploads.slidenest/template_1778/templateColor_1752/previewImages/history-of-internet-neon-powerpoint-google-slides-keynote-presentation-template-1.jpeg'); /* Optionally, set a background image */
+    background-size: cover; /* Adjust the background size as needed */
+    background-position: center center; /* Adjust the background position as needed */
+    padding-top: 100px; /* Adjust the top padding as needed */
+    padding-bottom: 100px; /* Adjust the bottom padding as needed */
+}
+
+#cart-content {
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 800px; /* Limit the maximum width of the container */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1); /* Set the background color for the container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.special-table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.special-remove-item-link {
+    color: #FF4500;
+}
+
+.special-confirm-order-btn {
+    color: #fff;
+    background-color: #007bff;
+}

@@ -1,0 +1,109 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#content{
+    min-height: 600px;
+}
+
+#products-jumbotron {
+    background: url('https://motionarray.imgix.net/preview-251579-pmKcStUWc2-high_0014.jpg?w=660&q=60&fit=max&auto=format') no-repeat center center; 
+    background-size: cover;
+    color: #f8f8f8; /* Change the text color if needed */
+}
+
+
+#item_list {
+    padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+
+
+
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+.red{
+    color:red;
+}
+
+#settings-container{
+    margin-bottom:10px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+}
+
+.remove_item_link{
+    color:#0000ff;
+}
+
+
+.images {
+  width: 100%; /* Set the width to fill the container */
+  max-height: 200px; /* Set a maximum height to prevent images from covering the captions */
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat;
+  border-radius: 2% 2% 0 0;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+
+.images:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+  border-radius: 2%;
+}
+
+.category-image {
+    width: 100%; /* Adjust the width as per your requirement */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Adjust the maximum height as per your requirement */
+}
+

@@ -1,0 +1,42 @@
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.office-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.office-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.office-address,
+.office-location,
+.office-email,
+.office-phone {
+    margin-bottom: 5px;
+}
+
+.office-image-container {
+    flex: 1;
+}
+
+.office-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
